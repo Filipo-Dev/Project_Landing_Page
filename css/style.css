@@ -3,3 +3,137 @@
     padding:0px;
     box-sizing: border-box;
 }
+
+html , body {
+    background-color: #EEEEEE;
+}
+
+#header{
+    min-height: 15vh;
+    /* background-color: beige; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    display: inline-block;
+    margin-right: 60px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+
+}
+
+nav img{
+    width: 400px;
+    margin-top: 10px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+#form input , label {
+    margin-bottom: 20px;
+}
+
+#form input {
+    padding: 5px 20px;
+}
+
+#form button{
+    border-style: none;
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+
+.features{
+    width: 50vw;
+    margin: 0px auto;
+}
+
+.feature_container{
+    display: flex;
+    margin: 100px 0px;
+}
+
+.feature_container i {
+    color: #FF8C00;
+}
+
+.feature_text_container {
+
+    margin-left: 60px;
+}
+
+#video{
+
+    width: 23vw;
+    margin: 0px auto;
+}
+
+#services{
+    margin: 50px 0px;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#services figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid black;
+}
+
+#services figure button{
+    width: 100px;
+    margin: 20px auto;
+    background-color: orange;
+    color: black;
+    border-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.service_title{
+    text-align: center;
+    padding: 12px;
+    font-size: 1.0rem;
+    font-weight: bolder;
+    background-color: #DDDDDD;
+}
+
+#services p{
+    width: 80px;
+    margin: 0px auto;
+}
+
+.service_pirce{
+  /* margin-bottom: 100px; */
+  text-align: center;
+  font-weight: bolder;
+}
+
